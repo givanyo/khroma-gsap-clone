@@ -1,5 +1,7 @@
 # Khroma GSAP Clone
-Clone da Homepage do website [Khroma](https://khroma.co). O projeto foi desenvolvido com o objetivo de colocar meus estudos sobre a criação de páginas com animações de scroll em prática.
+Clone da Homepage do website [Khroma](https://khroma.co) desenvolvido com o objetivo de praticar a criação de páginas com animações de scroll.
+
+Você pode acessar o projeto aqui: **[Khroma GSAP Clone](https://givanyo.github.io/khroma-gsap-clone/)**
 
 ## Tecnologias usadas
 - HTML5
@@ -7,3 +9,4 @@ Clone da Homepage do website [Khroma](https://khroma.co). O projeto foi desenvol
 - JavaScript
 - GSAP
 - ScrollTrigger
+
