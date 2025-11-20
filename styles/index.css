@@ -1,0 +1,74 @@
+@import url(global.css);
+.header {
+    min-height: 100vh;
+    margin-bottom: -160px;
+}
+.header p {
+    width: 700px;
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    /* background-color: cyan; */
+    padding: 1rem;
+    row-gap: 80px;
+    margin-bottom: 160px;
+    min-height: 100vh;
+}
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    gap: 1.5rem;
+    padding-inline: 120px;
+    
+}
+
+.grid-content svg {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 12%;
+    top: -70%;
+}
+
+.grid-content p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.grid-content h3, .grid-content p {
+    max-width: 100%;
+}
+
+.call-to-action {
+    font-size: 24px;
+    padding-block: 16px;
+    padding-inline: 24px;
+    border-radius: 8px;
+    color: rgb(201, 199, 199);
+    font-weight: 500;
+    background-image: linear-gradient(to bottom, hsl(220, 50%, 51%), hsl(214, 80%, 30%));
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+
+    width: 80vw;
+}

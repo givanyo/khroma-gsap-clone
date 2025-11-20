@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Graphik Trial', serif;
+    padding-block: 132px;
+    padding-inline: 112px;
+    background-color: #0d0d0d;
+    color: white;
+}
+.main-phrase {
+    font-size: 109px;
+    width: 600px;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}   
+
+h1 span {
+    font-style: italic;
+}
+h2 {
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    margin-bottom: 128px;
+}
+
+h3 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 64px;
+    font-weight: 500;
+}
+p {
+    color: hsl(228, 20%, 60%);
+    font-weight: 500;
+}
+
